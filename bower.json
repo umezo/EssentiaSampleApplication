@@ -1,0 +1,16 @@
+{
+  "name": "essentiaSample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/umezo/EssentiaSampleApplication",
+  "authors": [
+    "umezo <umezo@tsuyabu.in>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
