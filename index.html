@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<audio id="audioTag" src="audio.mp3"></audio>
+	<button onclick="audioTag.play()">play</button>
+	<button onclick="audioTag.pause()">pause</button>
+	<span id="currentTime"></span>
+	<script>
+		setInterval(function(){
+			currentTime.textContent = audioTag.currentTime;
+		}, 1000/60);
+
+	</script>
+</body>
+</html>
